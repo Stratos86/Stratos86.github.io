@@ -1,7 +1,30 @@
 body {
-  color: red;
+  color: #21666b;
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 100;
-  background-image: url(hardwired.jpeg);
+  background-image: url(wiora.jpg);
   background-repeat: no-repeat;
+}
+#wrapper {
+  width: 960px
+  margin: 20px auto 20px auto;
+}
+#wrapper img {
+  height: 150px
+}
+h1 {
+  color: red;
+}
+h2 {
+  color: maroon;
+}
+h3 {
+  color: purple;
+  font-family: fantasy, helvetica;
+}
+#summary {
+  color: orangered;
+}
+.skills-and-hobbies {
+  color: darkblue;
 }
