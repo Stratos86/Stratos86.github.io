@@ -2,50 +2,101 @@
 <html>
 <head>
   <title>Matt Wiora, Sr.</title>
-  <meta charset="UTF-8"></meta>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css"></link>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/f9001c39ac.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Rajdhani|Raleway:700" rel="stylesheet">
 </head>
 <body>
-  <div id="wrapper">
-    <h1>Matt Wiora, Sr.</h1>
-    <p>
-      <img class="img-circle","centered" src="wiora.jpg">
-    </p>
-    <h2>Financial Planning and Analysis Manager</h2>
-    <h3>Chicago, IL</h3>
-    <div>
-      <h4>Connect With Me</h4>
-      <ul class="connect-with-me">
-        <li><strong><a href="mailto:m-wiora@kellogg.northwestern.edu">E-Mail</a></li>
-        <li><a href="http://twitter.com/Stratos86">Twitter</a></li>
-        <li><a href="http://linkedin.com/in/mwiora">LinkedIn</a></strong></li>
-      </ul>
-    </div>
-    <div>
-      <h4 id="summary">Summary</h4>
-      <p>
-        Accepted into Northwestern University's Kellogg School of Management in the Summer of 2015, Matt has been awarded Dean's List honors for four out of six quarters. Matt has also received numerous accolades while working at Illinois Tool Works. In 2015, Matt was chosen to participate in ITW's Early in Career leadership development program. More recently, Matt has spent time focused on his work where he has implemented several new forecasting techniques and driven automation and simplification throughout the rganization.
-      </p>
-    </div>
-    <div>
-      <h4>Experience</h4>
-      <div>
-        <h5>Illinois Tool Works, Inc.</h5>
-          <p>Manager, Financial Planning and Analysis: 2015 - Present</p>
-          <p>Manager, Business Development: 2015</p>
-          <p>Supervisor, Internal Audit: 2013 - 2014</p>
+  <nav class="navbar navbar-default navbar-backgrnd">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <span>
+          <img class="navbar-brand" alt="Brand" href="http://Stratos86.github.io" src="wiora.jpg"></img>
+          <a class="navbar-brand" href="http://Stratos86.github.io">Matt Wiora, Sr.</a>
+        </span>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="AboutMe.html">AboutMe</a></li>
+          <li><a href="Hobbies.html">Hobbies</a></li>
+        </ul>
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Work in Process...">
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="topsecret","dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Secret Stuff...<span class="caret"></span></a>
+            <ul id=topsecret class="dropdown-menu">
+              <li><a href="MVM.html">Man vs. Machine</a></li>
+              <li><a href="GoodJourney.html">Good Journey...</a></li>
+              <li><a href="BL.html">Become Legend</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12" id="PageHeader">
+        <h1>A Little More About Yours Truly...</h1>
       </div>
     </div>
-    <div>
-      <h4 class="skills-and-hobbies">Skills</h4>
-        <p>Proficient in HTML and CSS</p>
-        <p>Well-versed in Visual Basic programming</p>
+    <div class="row">
+      <div class="col-md-4","AMHEAD">
+        <h2>Career</h2>
+          <h9 class="CEF">Illinois Tool Works, Inc.</h9>
+          <ul id="hist-list">
+            <li>Manager, Financial Planning and Analysis: 2015 - Present</li>
+            <li>Manager, Business Development: 2015</li>
+            <li>Supervisor, Internal Audit: 2013 - 2014</li>
+            <li>Senior Auditor: 2011 - 2013</li>
+            <li>Corporate Auditor: 2009 - 2011</li>
+          </ul>
+      </div>
+      <div class="col-md-4","AMHEAD">
+        <h2>Education</h2>
+        <h9 class="CEF">Kellogg School of Management, NU</h9>
+        <ul id="hist-list">
+          <li>MBA Candidate, Strategy: 2017</li>
+          <li>GPA: 3.8/4.0</li>
+          <li>Major GPA: 4.0/4.0</li>
+        </ul>
+        <h9 class="CEF">Loyola University of Chicago</h9>
+        <ul id="hist-list">
+          <li>B.B.A. - Accounting: 2009</li>
+          <li>GPA: 3.6/4.0</li>
+          <li>Major GPA: 3.8/4.0</li>
+        </ul>
+        <h9 class="CEF">Certified Public Accountant</h9>
+        <ul id="hist-list">
+          <li>Illinois Licensure</li>
+        </ul>
+      </div>
+      <div class="col-md-4","AMHEAD">
+        <h2>Family</h2>
+        <h9 class="CEF">They're the best!</h9>
+        <ul id="hist-list">
+          <li>+1 Wife (She's way more awesome than me)</li>
+          <li>+1 Child (Best thing that has ever happened to me)</li>
+          <li>+1 Doggo (She's the laziest animal I've ever met)</li>
+        </ul>
+      </div>
     </div>
-    <div>
-      <h4 class="skills-and-hobbies">Hobbies</h4>
-        <p>Enjoy playing the drums in my free time.</p>
-    </div>
-  </div>
 </body>
 </html>
