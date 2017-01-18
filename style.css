@@ -13,6 +13,9 @@ body {
   font-size: 20px;
   color: black;
 }
+#music-body {
+  text-align: left;
+}
 .panel-title {
   font-size: 35px;
   font-family: 'Raleway', sans-serif;
@@ -79,4 +82,7 @@ IMG.navbar-brand {
 }
 #wrapper img {
   height: 150px
+}
+.img-responsive {
+  width: 80%;
 }
